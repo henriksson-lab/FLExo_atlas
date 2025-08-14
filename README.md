@@ -1,11 +1,9 @@
-# Webapp in Rust
+!(FLExo logo)[./app/assets/flexo_logo_v1.svg]
 
-Template for a web app completly in rust. The server is created with actix-web, the frontend with yew.
+# FLExo Atlas
 
-Put shared structs and functionality into the root crate, app or server specific stuff into the corresponding app or server crates.
+Source code for the [FLExo Atlas](https://flexo.microbe.dev/), an interactive database with >5 million exotoxins and exotoxin-associated genes from nearly 700k prokaryotic (meta)genomes.
 
-Run `cargo watch -w server -w src -x "run"` in the root folder of the repository to start the server and restart on changes. In another shel run `trunk watch` inside the app folder to rebuild the wasm code on changes.
+Exotoxins and associated genes were detected using [FLExo](https://github.com/lmc297/FLExo/tree/main), our machine-learning (ML)-based exotoxin annotation tool.
 
-Features:
-- actix is setup to server the static files produced by trunk
-- a service worker for pwa functionality is included
+
